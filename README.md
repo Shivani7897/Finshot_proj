@@ -42,7 +42,7 @@ A `NULL` or empty `valid_to` means the record is **currently active**.
 ### 1. Start FalkorDB
 
 ```bash
-docker run -p 6379:6379 falkordb/falkordb:latest
+docker run -d -p 6379:6379 -p 3000:3000 --name finsight-falkordb falkordb/falkordb:latest
 ```
 
 ### 2. Install Python dependencies
