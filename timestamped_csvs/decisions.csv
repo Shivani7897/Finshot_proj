@@ -1,0 +1,6 @@
+decision_id,customer_id,decision_type,result,decision_time,model_version,valid_from,valid_to,created_at,updated_at
+DEC001,C001,LoanApproval,Rejected,2024-03-10,RiskModel_v1,2024-03-10T00:00:00Z,,2024-03-10T00:00:00Z,2024-03-10T00:00:00Z
+DEC002,C001,LoanApproval,Approved,2024-08-15,RiskModel_v2,2024-08-15T00:00:00Z,,2024-08-15T00:00:00Z,2024-08-15T00:00:00Z
+DEC003,C002,CreditCardApproval,Rejected,2024-02-20,RiskModel_v1,2024-02-20T00:00:00Z,,2024-02-20T00:00:00Z,2024-02-20T00:00:00Z
+DEC004,C003,ComplaintResolution,Closed,2024-06-05,SupportModel_v1,2024-06-05T00:00:00Z,,2024-06-05T00:00:00Z,2024-06-05T00:00:00Z
+DEC005,C004,FraudReview,Escalated,2024-03-15,FraudModel_v1,2024-03-15T00:00:00Z,,2024-03-15T00:00:00Z,2024-03-15T00:00:00Z
